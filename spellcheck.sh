@@ -1,5 +1,4 @@
 #!/bin/bash
-
 find . -iname "*".yml > list
 cat list
 #for i in `cat list`;
