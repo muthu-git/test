@@ -1,9 +1,0 @@
----
-- name: Test play
-  hosts: localhost
-  tasks:
-   - name: Add user
-     user:
-       name: Jack
-       state: present
-...
