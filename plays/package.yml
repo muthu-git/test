@@ -1,0 +1,10 @@
+---
+- name: Test play
+  hosts: localhost
+  tasks:
+   - name: Install package
+     yum:
+       name: httpd
+       state: installed
+...
+  
